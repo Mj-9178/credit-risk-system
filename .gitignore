@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment & Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Data & Models
+data/raw/
+data/processed/
+data/models/
+data/sample/
+*.csv
+*.parquet
+*.pkl
+*.joblib
+*.pth
+*.ckpt
+!data/README.md
+
+# Logs
+logs/
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+# 忽略敏感配置文件（绝对不能提交到GitHub！）
+.env
+*.pth
