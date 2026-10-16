@@ -29,6 +29,9 @@ plotly>=5.17.0
 
 # ===== Web 展示 =====
 streamlit>=1.30.0
+streamlit-option-menu>=0.3.6
+requests>=2.31.0
+pillow>=10.0.0
 
 # ===== LLM API =====
 openai>=1.10.0
