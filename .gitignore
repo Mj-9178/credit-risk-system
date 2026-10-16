@@ -29,7 +29,7 @@ data/raw/
 data/processed/
 data/models/
 data/sample/
-*.csv
+!data/sample.csv       
 *.parquet
 *.pkl
 *.joblib
